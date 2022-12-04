@@ -1,0 +1,89 @@
+.container {
+                width: 500px;
+                height: 500px;
+                background: #f9f9f9;
+                margin: 10px auto;
+                font-family: verdana;
+                overflow: hidden;
+            }
+            
+            .red {
+                width: 420px;
+                height: 100px;
+                background: rgba(77, 26, 26, 0.639);
+                position: relative;
+                left: 400px;
+                transition: transform 1.8s ease-in-out;
+            }
+            
+            .red-expand {
+                transform: translateX(-840px);
+            }
+
+            .grey {
+                width: 100px;
+                height: 420px;
+                position: relative;
+                top: -420px;
+                background: rgba(18, 18, 18, 0.639);
+                transition: transform 1.8s ease-in-out;
+            }
+            
+            .grey-expand {
+                transform: translateY(840px);
+            }
+            
+            .redtwo {
+                width: 420px;
+                height: 100px;
+                background: rgba(77, 26, 26, 0.639);
+                position: relative;
+                top: -120px;
+                left: -320px;
+                transition: transform 1.8s ease-in-out;
+            }
+            
+            .redtwo-expand {
+                transform: translateX(840px);
+            }
+            
+            .greytwo {
+                width: 100px;
+                height: 420px;
+                background: rgba(18, 18, 18, 0.639);
+                position: relative;
+                top: -220px;
+                left: 400px;
+                transition: transform 1.8s ease-in-out;
+            }
+            
+            .greytwo-expand {
+                transform: translateY(-840px);
+            }
+            
+            .text {
+                width: 280px;
+                height: 280px;
+                border: 2px solid #999;
+                border-radius: 5px;
+                position: relative;
+                top: -930px;
+                left: 110px;
+                text-align: center;
+                line-height: 2;
+            }
+            
+            hr {
+                width: 70%;
+            }
+            
+            .click-btn {
+                padding: 15px;
+                border: none;
+                background-color: #050505;
+                color: #fff;
+                font-weight: 600;
+                margin: 20px;
+                border-radius: 5px;
+                box-shadow: 1px 1px 1px 1px #dedede;
+            }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100..900&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(232, 232, 232);
+}
+
+p {
+  margin-top: 0;
+  padding: 5px 30px;
+
+  /* call the font for the paragraph */
+  font-family: 'Fraunces', serif;
+  
+  /* color of the paragraph is below (this one applies a gradient) */
+  background: -webkit-linear-gradient(rgba(121, 72, 72, 0.639), #808391, #7b5b5b, #282828);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ 
